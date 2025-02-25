@@ -1,0 +1,153 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+}
+
+/* Barra de navegación */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Contenedor principal */
+.container {
+    padding: 2rem 1rem;
+}
+
+h1, h2 {
+    font-weight: bold;
+    color: #495057;
+}
+
+.text-muted {
+    color: #6c757d !important;
+}
+
+/* Tarjeta del formulario */
+.card {
+    border: none;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+/* Botón de procesar */
+.btn-primary {
+    background-color: #0d6efd;
+    border: none;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+}
+
+/* Tabla de resultados */
+.table {
+    background-color: #ffffff;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table thead {
+    background-color: #0d6efd;
+    color: #ffffff;
+}
+
+.table tbody tr {
+    transition: background-color 0.3s ease;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f3f5;
+}
+
+.table tbody td a {
+    color: #0d6efd;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.table tbody td a:hover {
+    text-decoration: underline;
+}
+
+/* Cards */
+.card-img-top {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* Estilo de Favoritos */
+.btn-outline-warning i {
+    color: gold;
+}
+
+/* Footer (si se necesita) */
+footer {
+    margin-top: 2rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: #e9ecef;
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+/* Estilos para el modo oscuro */
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode .navbar {
+    background-color: #1f1f1f;
+}
+
+.dark-mode .card {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: none;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .table {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+.dark-mode .table thead {
+    background-color: #333333;
+}
+
+.dark-mode a {
+    color: #4da3ff;
+}
+
+.dark-mode a:hover {
+    color: #70b3ff;
+}
+
+.dark-mode .btn-primary {
+    background-color: #3b82f6;
+    border: none;
+}
+
+.dark-mode .btn-primary:hover {
+    background-color: #2563eb;
+}
